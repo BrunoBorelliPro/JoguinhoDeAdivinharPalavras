@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import styles from './WinWidget.module.css'
 
@@ -10,7 +11,7 @@ const WinPage = (props:Props) => {
     return (
         <div className={styles.container}>
             <h1>Parabéns, você ganhou! A palavra correta era {palavraCerta}.</h1>
-            <a href="/game">proximo</a>
+            <Link href="/game">proximo</Link>
         </div>
     );
 };
