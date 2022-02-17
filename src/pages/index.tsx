@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1>Descubra a palavra</h1>
-        <Link href="/game"><a>Start</a></Link>
+        <Link href="/game">Start</Link>
       </main>
       
     </div>
