@@ -11,7 +11,7 @@ const WinPage = (props:Props) => {
     return (
         <div className={styles.container}>
             <h1>Parabéns, você ganhou! A palavra correta era {palavraCerta}.</h1>
-            <Link href="/game">proximo</Link>
+            <Link href="/game">Próximo</Link>
         </div>
     );
 };
